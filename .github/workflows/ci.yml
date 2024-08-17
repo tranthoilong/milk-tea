@@ -3,10 +3,10 @@ name: CI/CD Pipeline for Next.js
 on:
   push:
     branches:
-      - main
+      - development
   pull_request:
     branches:
-      - main
+      - development
 
 jobs:
   build-and-test:
